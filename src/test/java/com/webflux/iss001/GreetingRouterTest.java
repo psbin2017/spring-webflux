@@ -1,4 +1,4 @@
-package com.webflux.greeting;
+package com.webflux.iss001;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

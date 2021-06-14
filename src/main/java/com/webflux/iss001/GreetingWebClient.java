@@ -1,4 +1,4 @@
-package com.webflux.greeting;
+package com.webflux.iss001;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.client.ClientResponse;
