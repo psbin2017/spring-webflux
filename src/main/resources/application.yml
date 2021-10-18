@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: local
+
+hello-world: default-real-world
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+hello-world: local-real-world
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+hello-world: dev-real-world
+---
+spring:
+  config:
+    activate:
+      on-profile: qa
+
+hello-world: qa-real-world
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+hello-world: prod-real-world
