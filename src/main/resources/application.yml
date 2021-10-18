@@ -1,6 +1,21 @@
 spring:
+
+  application:
+    name: spring-webflux
+
   profiles:
     active: local
+
+  thymeleaf:
+    prefix: /views
+
+  cloud:
+    gateway:
+      routes:
+        - id: spring-io
+          uri: https://spring.io
+          predicates:
+            - Path=/spring/**
 
 hello-world: default-real-world
 ---
